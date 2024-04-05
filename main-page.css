@@ -1,0 +1,112 @@
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2B73FF;
+  z-index: 10;
+}
+
+body {
+  background-color: #74A4FF;
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.main-icon {
+  margin-right: 20px;
+  height: 60px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  flex-shrink: 0;
+  font-size: 22px;
+}
+
+.company-menu {
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.product-menu,
+.support-service-menu{
+  cursor: pointer;
+}
+
+.main-block-grid {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 11px;
+}
+
+.main-image{
+  margin-top: 65px;
+  border-radius: 0px 120px 0px 120px;
+}
+
+.register-text {
+  font-size: 48px;
+  margin-top: 115px;
+  text-align: center;
+
+}
+
+.question-text{
+  font-size: 24px;
+  margin-top: 84px;
+  text-align: center;
+}
+
+.help-text {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.buttons-block{
+  display: grid;
+  grid-template-columns: 272px 262px;
+  justify-content: space-between;
+  margin-top: 90px;
+  height: 70px;
+}
+
+.register-button{
+  width: 272px;
+  margin-right: 70px;
+  font-size: 30px;
+  color: white;
+  background-color: #7F30FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.sign-in-button {
+  width: 262px;
+  font-size: 30px;
+  color: white;
+  background-color: #74A4FF;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+}

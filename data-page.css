@@ -1,0 +1,120 @@
+body{
+  font-family: Roboto, Arial;
+  background-color: #B2CDFF;
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 260px;
+  padding-top: 5px;
+  background-color: #2B73FF;
+}
+
+.main-sidebar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.main-sidebar img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.sidebar-link{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.sidebar-link:hover{
+  background-color: #105ffd;
+  cursor: pointer;
+}
+
+.sidebar-link img {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.sidebar-link div {
+  margin-left: 10px;
+  font-size: 36px;
+  color: white;
+}
+
+main{
+  padding-left: 260px;
+}
+
+.profile-name{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  color: white;
+}
+
+.company-info{
+  background-color: #74A4FF;
+  padding: 20px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+.info{
+  font-size: 36px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.info-grid{
+  display: grid;
+  grid-template-columns: 50px, 160px, 330px;
+  column-gap: 5px;
+}
+
+.info-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-row img {
+  width: 40px;
+}
+
+.info-row div{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.back-button {
+  position: fixed;
+  top: 26px;
+  right: 28px;
+  font-size: 24px;
+  width: 155px;
+  height: 45px;
+  border: none;
+  border-radius: 17px;
+  color:white;
+  background-color: #7F22F5;
+  cursor: pointer;
+}

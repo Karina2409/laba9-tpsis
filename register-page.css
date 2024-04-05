@@ -1,0 +1,71 @@
+body{
+  font-family: Roboto, Arial;
+  background-color: #B2CDFF;
+  position: relative;
+}
+
+.back-button {
+  position: fixed;
+  top: 26px;
+  left: 28px;
+  font-size: 24px;
+  width: 155px;
+  height: 45px;
+  border: none;
+  border-radius: 17px;
+  color:white;
+  background-color: #7F22F5;
+  cursor: pointer;
+}
+
+.register-page{
+  position: absolute;
+  background-color: #4C89FF;
+  width: 400px;
+  height: 600px;
+  top: 50%;
+  left: 50%; 
+  border-radius: 0px 120px 0px 120px;
+  margin-top: 100px;
+  margin-left: -200px;
+}
+
+.register-text {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 300px;
+  margin-top: 40px;
+}
+
+.input-text {
+  font-size: 26px;
+  margin-left: 60px;
+  margin-top: 50px;
+  color: white;
+}
+
+.input-box{
+  margin-left: 60px;
+  height: 40px;
+  width: 260px;
+  border-radius: 10px;
+  border: none;
+  background-color: #B2CDFF;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.register-button {
+  margin-top: 50px;
+  margin-left: 75px;
+  height: 60px;
+  width: 250px;
+  font-size: 22px;
+  color: #002367;
+  font-weight: medium;
+  background-color: #B2CDFF;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
