@@ -13,16 +13,17 @@
 
 <body>
   <main>
-    <button class="back-button">Назад</button>
+    <button class="back-button" onclick="back()">Назад</button>
     <div class="sign-in-page">
       <div class="sign-in-text">Вход</div>
       <div class="input-text">Введите Логин</div>
-      <input class="input-box" placeholder="Логин">
+      <input class="input-box js-input-login" placeholder="Логин">
       <div class="input-text">Введите Пароль</div>
-      <input class="input-box" placeholder="Пароль">
-      <button class="sign-in-button">Войти</button>
+      <input class="input-box js-input-password" placeholder="Пароль">
+      <button class="sign-in-button" onclick="signIn()">Войти</button>
     </div>
   </main>
+  <script src="sign-in-page.js"></script>
 </body>
 
 </html>
