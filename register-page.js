@@ -3,14 +3,6 @@ function registration(){
   const login = document.querySelector('.js-input-login').value;
   const password = document.querySelector('.js-input-password').value;
 
-  const name1 = document.querySelector('.js-input-name').value;
-  const login1 = document.querySelector('.js-input-login').value;
-  const password1 = document.querySelector('.js-input-password').value;
-
-  const name2 = document.querySelector('.js-input-name').value;
-  const login2 = document.querySelector('.js-input-login').value;
-  const password2 = document.querySelector('.js-input-password').value;
-
   if(name !== "" && login !== "" && password !== ""){
     window.location.href='profile-page.html';
 
@@ -22,4 +14,15 @@ function registration(){
 
 function back() {
   window.location.href='main-page.html';
+
+  const name1 = document.querySelector('.js-input-name').value;
+  const login1 = document.querySelector('.js-input-login').value;
+  const password1 = document.querySelector('.js-input-password').value;
+}
+
+function double(){
+  const name2 = document.querySelector('.js-input-name').value;
+  const login2 = document.querySelector('.js-input-login').value;
+  const password2 = document.querySelector('.js-input-password').value;
+  window.AbortController;
 }
